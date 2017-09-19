@@ -9,13 +9,14 @@ def person_time(person, distance)
   puts "How long (in minutes) did person #{person} run take to run #{distance} metres?"
   time = gets.to_f
 end
+
 # Define method to calculate distance per second
 def speed(distance,time)
   time = (time * 60.0).to_i
   (distance / time).round(2)
 end
 
-# Call the methods and put them inside variables
+# Call the methods for each person and put them inside variables
 person1_d = person_distance(1)
 person1_t = person_time(1, person1_d)
 
