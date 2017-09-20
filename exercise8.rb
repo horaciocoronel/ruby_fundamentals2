@@ -16,7 +16,7 @@ def speed(distance,time)
   (distance / time).round(2)
 end
 
-# Call the methods for each person and put them inside variables
+# Call the methods for each perand put them inside variables
 person1_d = person_distance(1)
 person1_t = person_time(1, person1_d)
 
@@ -24,7 +24,7 @@ person2_d = person_distance(2)
 person2_t = person_time(2, person2_d)
 
 person3_d = person_distance(3)
-person3_t = person_time(2, person3_t)
+person3_t = person_time(3, person3_t)
 
 # Put speed per person into variables
 speed1 = speed(person1_d, person1_t)
